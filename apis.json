@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Code.gov",
+	"description": "This is a repository of code.gov APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/code-gov.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://code-gov.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Code.gov",
+			"x-api-slug": "code-gov",
+			"description": "Code.gov leverages the power of code sharing and collaboration to help the US Government cut down on duplicative software development and save millions of taxpayer dollars for the American people.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-gov-logo.jpg",
+			"humanURL": "https://code.gov/",
+			"baseURL": "https://api.code.gov//",
+			"tags": "Code.gov",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/code-gov/master/_listings/code-gov/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Code.gov",
+	"include": [
+		{
+			"name": "Code.gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/code-gov/master/_listings/code-gov/apis.yaml"
+		}
+	]
+}

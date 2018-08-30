@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Code.gov
 x-complete: 1
@@ -264,4 +263,3 @@ paths:
       tags:
       - Code
       - Version
----
